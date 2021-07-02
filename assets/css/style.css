@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans:wght@300&display=swap');
 
 body{
-    margin: 0;
-    min-width: 100vw;
-}
+    margin: 0;}
 
 /* ------ Page Head ---- */
 header h4{
@@ -32,7 +30,7 @@ header h4{
 #section1 h1:nth-of-type(2){
     text-align: center;
     font-family: Work Sans;
-    font-size: 160px;
+    font-size: 120px;
     line-height: 188px;
     letter-spacing: -0.09em;
     text-transform: uppercase;
@@ -77,6 +75,23 @@ header h4{
 .portfolio_b{
     color: #fff
 }
+.portfolio_w{
+    color: #000
+}
+.portfolio_w aside{
+    text-align: right;
+    font-family: Fjalla One;
+    font-size: 100px;
+    color: #666666
+}
+.portfolio_b aside{
+    text-align: right;
+    font-family: Fjalla One;
+    font-size: 100px;
+    color: rgb(158, 158, 158, 0.5)
+}
+/* ----buttons---- */
+
 .portfolio_b .button{
     font-family: Fjalla One;
     font-size: 12px;
@@ -95,20 +110,19 @@ header h4{
     border: 1px solid #666;
     padding: 10px;
 }
-.portfolio_w{
+.portfolio_b .button:hover {
+    background: #fff;
     color: #000
 }
-.portfolio_w aside{
-    text-align: right;
-    font-family: Fjalla One;
-    font-size: 100px;
-    color: #666666
+.portfolio_b .button:hover + aside{
+    color: #fff
 }
-.portfolio_b aside{
-    text-align: right;
-    font-family: Fjalla One;
-    font-size: 100px;
-    color: rgb(158, 158, 158, 0.5)
+.portfolio_w .button:hover {
+    background: #000;
+    color: #fff
+}
+.portfolio_w .button:hover + aside{
+    color: #000
 }
 /* -----lower body -----*/
 #section6{
