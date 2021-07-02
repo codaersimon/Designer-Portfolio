@@ -59,29 +59,41 @@ header h4{
 .portfolio_b h2, .portfolio_w h2{
     font-family: Didact Gothic;
     font-size: 80px;
-    font-style: normal;
-    font-weight: normal;
     text-transform: uppercase;
     text-align: left;
 }
 .portfolio_b p{
     font-family: Work Sans;
     font-size: 12px;
-    font-style: normal;
-    font-weight: normal;
     text-transform: uppercase;
     color: #9E9E9E;
 }
 .portfolio_w p{
     font-family: Work Sans;
     font-size: 12px;
-    font-style: normal;
-    font-weight: normal;
     text-transform: uppercase;
-    color: #666666
+    color: #666;
 }
 .portfolio_b{
     color: #fff
+}
+.portfolio_b .button{
+    font-family: Fjalla One;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.portfolio_w .button{
+    font-family: Fjalla One;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #666;
+    border: 1px solid #666;
+    padding: 10px;
 }
 .portfolio_w{
     color: #000
