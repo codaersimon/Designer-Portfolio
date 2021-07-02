@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    min-width: 100vw;
+}
+
+/* ------ Page Head ---- */
+header h4{
+    font-family: Work Sans;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #000;
+}
+#section1 h1:nth-of-type(1){
+    font-family: Didact Gothic;
+    white-space: pre-line;
+    word-wrap: break-all;
+    font-size: 100px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000;
+}
+#section1 img{
+    margin-left:25%;
+    width: 50%;
+    text-align: center;
+}
+#section1 h1:nth-of-type(2){
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 160px;
+    line-height: 188px;
+    letter-spacing: -0.09em;
+    text-transform: uppercase;
+    color: #000;
+}
+/* Page Body */
+#section2{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Section1.jpg) center/cover no-repeat;
+    padding: 50px;
+}
+#section3{
+    background: url(../img/Section2.png) center/cover no-repeat;
+    padding: 50px;
+}
+#section4{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Section3.jpg) center/cover no-repeat;
+    padding: 50px;
+}
+#section5{
+    background: url(../img/Section4.png) center/cover no-repeat;
+    padding: 50px;
+}
+/* ----- portfolio class ----- */
+.portfolio_b h2, .portfolio_w h2{
+    font-family: Didact Gothic;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: left;
+}
+.portfolio_b p{
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #9E9E9E;
+}
+.portfolio_w p{
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #666666
+}
+.portfolio_b{
+    color: #fff
+}
+.portfolio_w{
+    color: #000
+}
+.portfolio_w aside{
+    text-align: right;
+    font-family: Fjalla One;
+    font-size: 100px;
+    color: #666666
+}
+.portfolio_b aside{
+    text-align: right;
+    font-family: Fjalla One;
+    font-size: 100px;
+    color: rgb(158, 158, 158, 0.5)
+}
+/* -----lower body -----*/
+#section6{
+    background: #000;
+    font-family: work sans;
+    padding: 50px;
+}
+#section6 h1{
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    padding: 50x;
+}
+#section6 article{
+    padding-bottom: 50px;
+}
+#section6 article p{
+    color: #666;
+    text-align: left;
+    padding-left: 40%;
+}
+#section6 article a{
+    color: #fff;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 40%;
+}
+#section6 article a:hover{
+    text-decoration: underline;
+}
+#section7 article{
+    padding: 25% 25%;
+}
+#section7 article ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+#section7 a{
+    font-family: Didact Gothic;
+    font-size: 150px;
+    color: #000;
+    text-decoration: none;
+}
+#section7 a:hover{
+    text-decoration: underline;
+}
+/*---- footer----- */
+footer p{
+    text-align: center;
+    margin: 0px;
+}
+
